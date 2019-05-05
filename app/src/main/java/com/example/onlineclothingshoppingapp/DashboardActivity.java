@@ -49,7 +49,7 @@ public class DashboardActivity extends AppCompatActivity {
         });
         List<Pant> pantList = new ArrayList<>();
         try {
-            FileInputStream fos = openFileInput("items.txt");
+            FileInputStream fos = openFileInput("Items.txt");
             InputStreamReader isr = new InputStreamReader(fos);
             BufferedReader br = new BufferedReader(isr);
             String line = "";

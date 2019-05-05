@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     tools:context=".AdditemActivity"
     android:orientation="vertical"
-    android:background="#96BCC8">
+    android:background="@drawable/itembg">
 
 
     <TextView
